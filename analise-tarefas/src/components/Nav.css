@@ -1,0 +1,25 @@
+nav {
+    background-color: #ffc815;
+    display: flex;
+    width: 100%;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    height: 25px;
+    width: auto;
+    padding: 4px;
+    border: none;
+    border-radius: 6px;
+    background-color: gray;
+    text-decoration: none;
+    color: white
+}
