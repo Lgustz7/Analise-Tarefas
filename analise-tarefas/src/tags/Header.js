@@ -3,10 +3,11 @@ import Nav from './Nav'
 import './Nav.css'
 
 function Header() {
+    var nomeUser = 'Luiz'
     return (
         <>
             <header>
-                <h2>Gerenciamento de projetos e tarefas</h2>
+                <h2>Olá, {nomeUser}</h2>
             </header>
             <Nav />
         </>

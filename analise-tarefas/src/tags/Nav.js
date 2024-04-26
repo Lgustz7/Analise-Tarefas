@@ -3,7 +3,8 @@ import './Nav.css'
 
 function Nav() {
     return (
-        <>
+
+        <div className='alinhador'>
             <nav>
                 <ul>
                     <li><a href="#addTask">Adicionar tarefa</a></li>
@@ -11,7 +12,8 @@ function Nav() {
                     <li><a href="#gerenciar">Gerenciar</a></li>
                 </ul>
             </nav>
-        </>
+        </div>
+
     )
 
 }
